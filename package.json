@@ -1,14 +1,22 @@
 {
   "name": "codecamp_server-lite",
   "version": "1.0.0",
-  "description": "Test Code Camp Example",
-  "license": "ISC",
-  "author": "Gillon Paterson",
-  "type": "TS",
+  "description": "Code Camp test for Lite-Server",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "lite-server -c bs-config.json"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GillonPaterson/CodeCamp_Lite-Server.git"
+  },
+  "author": "Gillon Paterson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GillonPaterson/CodeCamp_Lite-Server/issues"
+  },
+  "homepage": "https://github.com/GillonPaterson/CodeCamp_Lite-Server#readme",
   "devDependencies": {
     "lite-server": "^2.6.1"
   }
