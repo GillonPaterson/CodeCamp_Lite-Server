@@ -1,0 +1,15 @@
+{
+  "name": "codecamp_server-lite",
+  "version": "1.0.0",
+  "description": "Test Code Camp Example",
+  "license": "ISC",
+  "author": "Gillon Paterson",
+  "type": "TS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
